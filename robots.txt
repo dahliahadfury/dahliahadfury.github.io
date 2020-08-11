@@ -31,4 +31,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://gsurma.github.io/sitemap.xml
+Sitemap: 
