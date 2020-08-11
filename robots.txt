@@ -31,4 +31,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: 
+Sitemap: https://dahliahadfury.github.io/
