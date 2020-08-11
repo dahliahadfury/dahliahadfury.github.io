@@ -55,6 +55,7 @@ body {
   right: 0;
   left: 0;
   margin: auto;
+  align-content: center;
 }
 
 .projectFilter a {
