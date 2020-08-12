@@ -93,3 +93,15 @@ body {
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
 }
+
+.link-style{
+  cursor: pointer;
+}
+/* will this make the card scale? */
+.card {
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.055);
+  /* color: #4B0082 */
+}
