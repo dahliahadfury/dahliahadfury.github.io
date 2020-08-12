@@ -58,6 +58,28 @@ body {
   margin: auto;
 }
 
+.link-style{
+  cursor: pointer;
+}
+.card {
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.055);
+}
+
+.fabicon {
+  text-decoration: none;
+}
+.fabicon i {
+  transition: all 0.3s;
+}
+
+.fabicon:hover i {
+  transform: scale(1.2);
+  color: #007bb6;
+}
+
 .projectFilter a {
   font-size: x-large;
   margin-right: 5px;
@@ -92,18 +114,4 @@ body {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
-}
-
-.link-style{
-  cursor: pointer;
-}
-.card {
-  transition: all 0.3s;
-}
-.card:hover {
-  transform: scale(1.055);
-}
-.btn:hover {
-  color: #007bb6;
-  transform: scale(1.055);
 }
